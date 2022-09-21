@@ -5,7 +5,7 @@
     mycontent(mypage);
   });
   function mycontent(mypage){
-    $("#loadmorebtn").html("Loading ...");
+    $("#loadmorebtn").html("Loading ....");
     $.get("https://script.google.com/macros/s/AKfycby79oHqSRMEa-fT_6CbhfeJ-8vzs7Ev4ntjNktWUHlgFRiCeUWN/exec", function (data){
       let cekData = data;
       console.log(cekData);
